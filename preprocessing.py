@@ -1,5 +1,5 @@
 import pandas as pd
-
+#logic used to outline the logic of the preprocceser
 def load_and_preprocess_data():
     # Load datasets
     housing_data = pd.read_csv('data/housing_data.csv')

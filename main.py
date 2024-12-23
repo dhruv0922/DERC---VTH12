@@ -3,7 +3,7 @@ from model import build_model
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
 import matplotlib.pyplot as plt
-
+#main file used to train the data
 def main():
     # Load and preprocess the data
     X, y = load_and_preprocess_data()
